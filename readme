@@ -1,0 +1,75 @@
+# Búsqueda por Voz en Tiendas en Línea
+
+Este es un programa simple que te permite buscar productos en tiendas en línea utilizando comandos de voz. Actualmente, soporta las siguientes tiendas:
+
+- Amazon
+- Mercado Libre
+- eBay
+
+## Requisitos
+
+Para ejecutar este programa, necesitas tener instaladas las siguientes librerías de Python:
+
+- [SpeechRecognition](https://pypi.org/project/SpeechRecognition/): Para reconocimiento de voz.
+- [Pyttsx3](https://pypi.org/project/pyttsx3/): Para síntesis de voz.
+- [Webbrowser](https://docs.python.org/3/library/webbrowser.html): Para abrir los enlaces de búsqueda en el navegador.
+
+(Links actualizados dia: 13/05/2024)
+
+Puedes instalar estas dependencias utilizando pip:
+
+pip install SpeechRecognition pyttsx3
+
+
+## Uso
+
+1. Ejecuta el archivo `main.py`.
+2. El programa te preguntará en qué tienda deseas buscar (Amazon, Mercado Libre o eBay).
+3. Después de seleccionar la tienda, el programa te pedirá que digas qué producto deseas buscar.
+4. Di el nombre del producto cuando se te indique.
+5. El programa abrirá automáticamente una pestaña del navegador con los resultados de búsqueda.
+
+## Notas
+
+- Si la entrada de voz no es reconocida correctamente, el programa te pedirá que repitas tu solicitud.
+- Asegúrate de estar conectado a Internet para que el reconocimiento de voz y la búsqueda en línea funcionen correctamente.
+
+
+
+########### INGLES VERSION ##################
+
+# Voice Search in Online Stores
+
+This is a simple program that allows you to search for products in online stores using voice commands. Currently, it supports the following stores:
+
+-Amazon
+-Mercado Libre
+-Ebay
+
+##Requirements
+
+To run this program, you need to have the following Python libraries installed:
+
+- [SpeechRecognition](https://pypi.org/project/SpeechRecognition/): For speech recognition.
+- [Pyttsx3](https://pypi.org/project/pyttsx3/): For speech synthesis.
+- [Webbrowser](https://docs.python.org/3/library/webbrowser.html): To open search links in the browser.
+
+(Links updated on: 05/13/2024)
+
+You can install these dependencies using pip:
+
+pip install speech recognition pyttsx3
+
+
+##use
+
+1. Run the `main.py` file.
+2. The program will ask you which store you want to search in (Amazon, Mercado Libre or eBay).
+3. After selecting the store, the program will ask you to say what product you want to search for.
+4. Say the name of the product when prompted.
+5. The program will automatically open a browser tab with the search results.
+
+## Grades
+
+- If the voice input is not recognized correctly, the program will ask you to repeat your request.
+- Make sure you are connected to the Internet for voice recognition and online search to work properly.
